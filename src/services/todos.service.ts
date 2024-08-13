@@ -41,6 +41,9 @@ export async function updateTodo(id: string, title: string, description: string)
       description
     },
   });
+
+  
+  redirect('/')
 }
 
 // Function to toggle the completion status of a todo
