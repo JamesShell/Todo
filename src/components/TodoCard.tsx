@@ -15,8 +15,6 @@ import {
   Dialog,
   DialogTrigger,
   DialogContent,
-  DialogTitle,
-  DialogDescription,
   DialogClose,
   DialogContainer,
   DialogSubtitle,
@@ -60,6 +58,8 @@ export default function TodoCard({
     } finally {
       setIsSaving(false); // Reset loading state
     }
+
+    setDialogOpen(false)
   };
 
   const handleDelete = async () => {
