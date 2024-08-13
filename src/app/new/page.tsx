@@ -37,7 +37,7 @@ export default function Page() {
   };
 
   return (
-    <Card className="mx-auto w-6/12">
+    <Card className="mx-auto md:w-10/12 lg:w-6/12 w-full">
       <CardHeader className="w-full">
         <h1 className="text-2xl font-semibold">New</h1>
       </CardHeader>
